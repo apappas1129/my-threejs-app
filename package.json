@@ -1,0 +1,26 @@
+{
+  "name": "terrain-surfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.1",
+    "http-server": "^14.1.1",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
+  },
+  "exports": {
+    "./build/three.module.js": "./build/three.module.js",
+    "./examples/jsm/controls/OrbitControls.js": "./examples/jsm/controls/OrbitControls.js",
+    "./examples/jsm/loaders/GLTFLoader.js": "./examples/jsm/loaders/GLTFLoader.js",
+    "./examples/jsm/loaders/TextureLoader.js": "./examples/jsm/loaders/TextureLoader.js"
+  },
+  "dependencies": {
+    "three": "^0.151.3"
+  }
+}

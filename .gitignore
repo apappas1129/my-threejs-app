@@ -1,0 +1,15 @@
+# Node.js dependencies
+node_modules/
+
+# Distribution directory
+dist/
+
+# IDE and text editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Compiled output, logs, and other generated files
+/build/
+.DS_Store
+*.log
